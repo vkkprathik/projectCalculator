@@ -25,7 +25,7 @@ class Simple_cal
         cal c = new cal();
        Scanner sc=new Scanner(System.in);
        System.out.println("Enter the number");
-       int exp=sc.nextInt();
+       int exp=3;//sc.nextInt();
        switch(exp)
         {
             case 1:System.out.println("add of two number="+c.add(10,20));
